@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Villager Xiao Ding</string>
+		<key>gold</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Monk Lao Lu</string>
+		<key>gold</key>
+		<string>5</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bartender Xiao Er</string>
+		<key>gold</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tramp Ah Gui</string>
+		<key>gold</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Scrooge Ba pi</string>
+		<key>gold</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Scholar Ah jin</string>
+		<key>gold</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string></string>
+		<key>gold</key>
+		<string>1</string>
+	</dict>
+</array>
+</plist>

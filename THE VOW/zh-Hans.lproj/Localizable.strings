@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  THE VOW
+
+  Created by libs on 14-4-15.
+  Copyright (c) 2014年 icow. All rights reserved.
+*/
+
+"Innate"="天生能力";
+"Underground Hole"="地下洞穴";
+"Tree House"="树屋";
+"Chalet"="小木屋";
+"Stone House"="石头房子";
+"Village"="小村庄";
+"Castle"="城堡";
+"Dream City"="梦想之城";
+
+"%1$@(Yields %2$d gold in every %3$d minutes)"="%1$@(每隔%3$d分钟产生%2$d金币)";
+//"%@(Yields %d gold in every %d minutes)"="%@(每隔%d分钟产生%d金币)";////
+"Get It"="获取";
+"Consume %d gold"="消耗%d金币";
+
+"Reap"="收获";
+"Sell"="出售";
+
+"OK"="确定";
+"NO"="取消";
+"YES"="确定";
+
+"Assets Library"="资产仓库";
+
+"Are you sure to sell the %@ to get %d gold?"="是否出售%@，获取%d金币?";
+"Reap %d gold"="获得%d金币";
+"Failed to sell it, please try again."="出售失败，请再次尝试。";
+
+"Mall"="商品";
+"You have got one %@ with %d gold successfully."="您获得%@，消耗了%d金币。";
+"Sorry, you have not enough gold."="抱歉，您的金币不足。";
+"Are you sure to buy %1$@ with %2$d gold?"="您确定使用%2$d金币获取%1$@吗?";//
+
+"Shop"="商店";
+"Request Error, please try again."="网络请求失败，请重新尝试。";
+
+"Auto miss"="自动MISS";
+"Start"="开始";
+"Red"="红色";
+"Black"="黑色";
+"Green"="绿色";
+"Sorry, you have none miss."="抱歉，您没有了MISS技能。";
+"You have got %d initial gold"="您获得了%d初始金币和2次MISS。";
+//"You have got %d initial gold"="您获得了%d初始金币。";
+"You win %d X %d X %d gold"="您赢取了%d X %d X %d金币。";
+"You win %d X %d gold"="您赢取了%d X %d金币。";
+"You lose %d X %d gold"="失去%d X %d金币。";
+"Miss"="MISS";
+"Miss, save %d X %d gold for you."="MISS! 帮您避免%d X %d金币的损失。";
+
+"You have purchased %d %@ successfully, get %d gold and %d miss."="您已成功购买%d件%@，获得%d金币和%d MISS。";
+"You have purchased %d %@ successfully, get %d gold."="您已成功购买%d件%@，获得%d金币。";
+"You have purchased %d %@ successfully, get %d miss."="您已成功购买%d件%@，获得%d MISS。";
+"You have got %d X %d gold and %d X %d miss."="通过购买，您已获得%d X %d金币和%d X %d MISS。";
+"You have got %d X %d gold."="通过购买，您已获得%d X %d金币。";
+"You have got %d X %d miss."="通过购买，您已获得%d X %d MISS。";
+"Buy"="购买";
+"GOLD and"="金币和";
+"MISS"="MISS";
+"Are you sure to buy %d %@?"="您确定要购买%d件%@吗?";

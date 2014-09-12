@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  THE VOW
+
+  Created by libs on 14-4-15.
+  Copyright (c) 2014年 icow. All rights reserved.
+*/
+
+"Innate"="Innate";
+"Underground Hole"="Underground Hole";
+"Tree House"="Tree House";
+"Chalet"="Chalet";
+"Stone House"="Stone House";
+"Village"="Village";
+"Castle"="Castle";
+"Dream City"="Dream City";
+
+"%1$@(Yields %2$d gold in every %3$d minutes)"="%1$@(Yields %2$d gold in every %3$d minutes)";
+
+//"%@(Yields %d gold in every %d minutes)"="%@(Yields %d gold in every %d minutes)";
+"Get It"="Get It";
+"Consume %d gold"="Consume %d gold";
+
+"Reap"="Reap";
+"Sell"="Sell";
+
+"OK"="OK";
+"NO"="NO";
+"YES"="YES";
+
+"Assets Library"="Assets Library";
+"Are you sure to sell the %@ to get %d gold?"="Are you sure to sell the %@ to get %d gold?";
+"Reap %d gold"="Get %d gold";
+"Failed to sell it, please try again."="Failed to sell it, please try again.";
+
+"Mall"="Mall";
+"You have got one %@ with %d gold successfully."="You have got one %@ with %d gold successfully.";
+"Sorry, you have not enough gold."="Sorry, you have not enough gold.";
+"Are you sure to buy %1$@ with %2$d gold?"="Are you sure to buy %1$@ with %2$d gold?";
+
+"Shop"="Store";
+"Request Error, please try again."="Request Error, please try again.";
+
+"Auto miss"="Auto MISS";
+"Start"="Start";
+"Red"="Red";
+"Black"="Black";
+"Green"="Green";
+"Sorry, you have none miss."="Sorry, you have none MISS skill.";
+"You have got %d initial gold"="You have got %d initial gold and 2 MISS.";
+"You win %d X %d X %d gold"="You win %d X %d X %d gold.";
+"You win %d X %d gold"="You win %d X %d gold.";
+"You lose %d X %d gold"="You lose %d X %d gold.";
+"Miss"="MISS";
+"Miss, save %d X %d gold for you."="MISS! save %d X %d gold for you.";
+
+"You have purchased %d %@ successfully, get %d gold and %d miss."="You have purchased %d %@ successfully, get %d gold and %d MISS.";
+"You have purchased %d %@ successfully, get %d gold."="You have purchased %d %@ successfully, get %d gold.";
+"You have purchased %d %@ successfully, get %d miss."="You have purchased %d %@ successfully, get %d MISS.";
+"You have got %d X %d gold and %d X %d miss."="You have got %d X %d gold and %d X %d MISS by buying.";
+"You have got %d X %d gold."="You have got %d X %d gold by buying.";
+"You have got %d X %d miss."="You have got %d X %d MISS by buying.";
+"Buy"="Buy";
+"GOLD and"="GOLD and ";
+"MISS"="MISS";
+"Are you sure to buy %d %@?"="Are you sure to buy %d %@?";

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>value</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Innate</string>
+		<key>gold</key>
+		<integer>10</integer>
+		<key>duration</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>value</key>
+		<real>1000</real>
+		<key>name</key>
+		<string>Underground Hole</string>
+		<key>gold</key>
+		<integer>75</integer>
+		<key>duration</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>value</key>
+		<real>2000</real>
+		<key>name</key>
+		<string>Tree House</string>
+		<key>gold</key>
+		<integer>150</integer>
+		<key>duration</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>value</key>
+		<real>10000</real>
+		<key>name</key>
+		<string>Chalet</string>
+		<key>gold</key>
+		<integer>830</integer>
+		<key>duration</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>value</key>
+		<real>80000</real>
+		<key>name</key>
+		<string>Stone House</string>
+		<key>gold</key>
+		<real>5850</real>
+		<key>duration</key>
+		<integer>15</integer>
+	</dict>
+	<dict>
+		<key>value</key>
+		<real>200000</real>
+		<key>name</key>
+		<string>Village</string>
+		<key>gold</key>
+		<real>13900</real>
+		<key>duration</key>
+		<integer>20</integer>
+	</dict>
+	<dict>
+		<key>value</key>
+		<real>500000</real>
+		<key>name</key>
+		<string>Castle</string>
+		<key>gold</key>
+		<real>31250</real>
+		<key>duration</key>
+		<integer>30</integer>
+	</dict>
+	<dict>
+		<key>value</key>
+		<integer>1000000</integer>
+		<key>name</key>
+		<string>Dream City</string>
+		<key>gold</key>
+		<real>41700</real>
+		<key>duration</key>
+		<integer>60</integer>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,123 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+//系统是否为ios7以上
+#define ISIOS7 !([[[UIDevice currentDevice] systemVersion] floatValue] <=6.9f)
+
+//状态栏高度
+#define  HS_STATUSBAR_HEIGHT  20.0f
+//ios7状态栏偏移量
+#define  IOS7_STATUSBAR_DELTA   (ISIOS7?(HS_STATUSBAR_HEIGHT):0)
+
+#define ZLDEBUG
+
+#undef ZLDEBUG
+
+#ifdef ZLDEBUG
+#define ZLTRACE(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define ZLTRACE(...) do { } while (0)
+#endif
+
+
+//判断是否是iPhone5
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+//挑战结束
+#define   ZL_CHALLENGE_OVER_NOTIFICATION  @"ZL_CHALLENGE_OVER_NOTIFICATION"
+//刷新金币
+#define   ZL_REFRESS_GOLDS_NOTIFICATION  @"ZL_REFRESS_GOLDS_NOTIFICATION"
+//获取到内购商品列表
+#define   ZL_IAP_PRODUCTS_NOTIFICATION  @"ZL_IAP_PRODUCTS_NOTIFICATION"
+
+
+#define HEXCOLOR(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define NNRANDOM_0_1() ((float)random()/RAND_MAX)
+
+#define random_range(low, high) (rand() % (high - low + 1)) + low
+#define frandom (float)rand() / UINT64_C(0x100000000)
+#define frandom_range(low, high) ((high - low) * frandom) + low
+
+//表头高度
+#define     ZL_HEADVIEW_HEIGHT   64
+#define     ZL_HEADVIEW_TEXTCOLOR HEXCOLOR(0xfde103)
+#define     ZL_CELLTITLE_TEXTCOLOR HEXCOLOR(0xfde103)
+#define     ZL_DISABLE_TEXTCOLOR   [UIColor grayColor]//HEXCOLOR(0xfde103)
+
+#define     ZL_TABLEVIEW_LEFTMARGIN  8
+#define     ZL_HOME_TABLEVIEW_HEIGHT       78
+#define     ZL_PRODUCT_CELL_HEIGHT   70
+
+
+#define     ZL_SCREEN_WIDTH     320
+
+#define     ZL_ASSETS_SELL_DISCOUNT     0.9f//出售资产打折
+
+//轮盘所在位置
+#define   ZL_SPINNING_YPOSITION   (iPhone5?0.42f:0.4f)
+
+#define     ZL_BIG_FONT_SIZE   22
+#define     ZL_MIDDLE_FONT_SIZE  18
+#define     ZL_SMALL_FONT_SIZE   13
+
+#define     ZL_DEFAULT_FONT_NAME  @"ChalkboardSE-Regular"
+
+#define     ZL_INNATE_TALENT_NAME @"Innate"
+
+#define     PLAY_TAP_BUTTON_AUDIO [(ZLAppDelegate *)([UIApplication sharedApplication].delegate) playAudio:ZLAudioTypeTapButton];
+
+//测试storekit
+#define  TEST_STOREKIT
+#undef  TEST_STOREKIT
+
+//bargaining chip
+//Gambling chips
+
+typedef NS_ENUM(int, ZL_CHIPS_TYPE) {
+    ZLChipTypeNotSet=0,
+    ZLChipTypeOne=1,
+    ZLChipTypeFive=2,
+    ZLChipTypeFifty=3,
+    ZLChipTypeHundred=4,
+    ZLChipTypeFiveHundred=5,
+};
+
+//游戏模式
+typedef NS_ENUM(int, ZL_GAME_MODE) {
+    ZLGameModeNumber=0,
+    ZLGameModeEvenOdd=1,
+    ZLGameModeBigSmall=2,
+    ZLGameModeColor=3,
+};
+
+#define  ZLGAMEMODEVIEWHEIGHT  70
+
+typedef NS_ENUM(int, ZL_NUMBER_TYPE) {
+    ZLNumberZero=0,
+    ZLNumberEven=1,
+    ZLNumberOdd=2,
+};
+
+typedef NS_ENUM(int, ZL_AUDIO_TYPE) {
+    ZLAudioTypeRotate=0,
+    ZLAudioTypeTapButton=1,
+    ZLAudioTypeWin=2,
+    ZLAudioTypeLose=3,
+    ZLAudioTypeMiss=4,
+    ZLAudioTypeGold=5,
+};
+#endif
